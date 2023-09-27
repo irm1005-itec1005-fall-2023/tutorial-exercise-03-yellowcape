@@ -9,6 +9,9 @@
 main .light-box {
   margin: 2rem 0;
   padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+  color: #1d3557ff;
   /* 1. Add a background colour of #f5f5f5 */
   /* 2. Add a border radius of 0.5rem */
   /* 3. Add a text color of #1d3557ff */
@@ -27,9 +30,18 @@ Create a class called dark-box and add the following styles to it
   6. Add a text color of #f5f5f5
 
 */
-
+main .dark-box {
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #242121;
+  border-radius: 0.5rem;
+  color: #f5f5f5;
+}
 /* Styles for the link in the dark box */
 
+main .dark-box a{
+  color: #090909;
+}
 /*
 
 Create a selector that targets the link in the dark box and add the following styles to it
@@ -51,6 +63,13 @@ Create a class called red-box and add the following styles to it
   10. Add a text color of #f5f5f5
 
 */
+.red-box {
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #e63946ff;
+  border-radius: 0.5rem;
+  color: #f5f5f5;
+}
 
 /* Styles for the link in the dark box */
 
@@ -61,7 +80,9 @@ Create a selector that targets the link in the dark box and add the following st
   11. Add a text color of #090909
 
 */
-
+.dark-box a{
+  color: #090909;
+}
 /* Styles for the blux box */
 
 /*
